@@ -7,4 +7,3 @@ gem 'slim'
 gem 'compass'
 gem 'less'
 gem 'therubyracer'
-
