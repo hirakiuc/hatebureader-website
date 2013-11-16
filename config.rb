@@ -12,9 +12,9 @@
 # end
 
 ## settings
-set :site_title, "HatebuReader - Hatena Bookmark Client for iOS"
-set :site_description, "This site introduce HatebuReader."
-set :site_keywords, "はてなブックマーク,はてぶ,はてブ,iphone,ios,アプリ"
+#set :site_title, "HatebuReader - Hatena Bookmark Client for iOS"
+#set :site_description, "This site introduce HatebuReader."
+#set :site_keywords, "はてなブックマーク,はてぶ,はてブ,iphone,ios,アプリ"
 
 # remove .html extension from pages
 activate :directory_indexes

@@ -4,16 +4,15 @@ head
   meta charset="utf-8"
   meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
   /! Use title if it's in the page YAML frontmatter
-  title = data.page.title || "HTML5 Boilerplate"
-  meta name="description" content=""
+  title HatebuReader - Hatena Bookmark Client for iOS
+  meta name="description" content="This site introduce HatebuReader."
+  meta name="keywords" content="はてなブックマーク,はてぶ,はてブ,iphone,ios,アプリ"
   meta name="viewport" content="width=device-width,initial-scale=1.0"
   meta name="apple-itunes-app" content="app-id=516518074"
 
   /[if lt IE 9]
     script src="http://html5shim.googlecode.com/svn/trunk/html5.js"
 
-  /! OpenGraph protocol
-  == partial "partials/opengraph"
   /! Place favicon.ico and apple-touch-icon.png in the root directory
   link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"
   link rel="apple-touch-icon-precomposed" size="144x144" href="img/icons/icon@144x144.png"
@@ -56,7 +55,7 @@ body.preview id="top" data-spy="scroll" data-target=".subnav" data-offset="80"
   script src="js/modernizr-2.6.2.min.js"
   script src="js/jquery.smooth-scroll.min.js"
   script src="js/bootstrap.min.js"
-  script src="js/bootswatch.js"
+  /script src="js/bootswatch.js"
 
 
   /! Google Analytics: change UA-XXXXX-X to be your site's ID.
