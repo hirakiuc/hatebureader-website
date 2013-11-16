@@ -1,14 +1,18 @@
-section#more_usable class="page"
-
-  div.page-header
-    h3 はてなアカウントで認証してより便利に
+section.page#more_usable
 
   div.row
-    div.span4
-      | はてなアカウントで認証すると、アプリへ自分のブックマークをインポートできます。
-      | 設定により、一定間隔でブックマークを自動的に同期することもできます。
-      br/
-      | 自分のブックマークを整理したり、閲覧したりがiPhoneでできます.
-    div.span2
-      img src="img/ss_bookmarks.png"
+    div.col-md-8
+      h2.title はてなアカウントで認証してより便利に
+      p
+        | はてなアカウントで認証すると、アプリへ自分のブックマークをインポートできます。
+        br
+        | iPhoneから自分のブックマークを整理したり、閲覧したりできます。
+      p
+        | 将来的には
+        a[href='https://github.com/hatena/Hatena-Bookmark-iOS-SDK']
+          Hatena Bookmark のiOS SDKを使ったUI
+        | に変更する予定です。
+    div.col-md-4
+      a.ss[href='img/ss_bookmarks.png']
+        img.ss.dropshadow src="img/ss_bookmarks.png"
 
