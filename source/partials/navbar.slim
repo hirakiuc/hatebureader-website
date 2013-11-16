@@ -1,10 +1,14 @@
-div class="navbar navbar-fixed-top"
-  div.navbar-inner
-    div.container
-      /a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"
-      /  span.icon-bar
-      /  span.icon-bar
-      /  span.icon-bar
-      a.brand href="../" HatebuReader
+div class="navbar navbar-default navbar-fixed-top" role="navigation"
+  div.container
+    div.navbar-header
+      button.navbar-toggle type="button" data-toggle="collapse" data-target=".navbar-collapse"
+        span.sr-only Toggle Navigation
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand href="#" HatebuReader
 
-
+    div.collapse.navbar-collapse
+      ul.nav.navbar-nav
+        li.active: a[href="#top"] トップ
+        li:        a[href="#concept"] コンセプト
+        li:        a[href="#request"] ご要望など
