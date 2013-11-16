@@ -2,7 +2,7 @@
 
 body {
   min-height: 2000px;
-  padding-top: 70px;
+  margin-top: 15px;
 }
 
 @mixin page-style {
@@ -48,6 +48,18 @@ section#top.jumbotron {
   padding-right: 0px;
 
   .container {
+    .row {
+      @media (max-width: 992px) {
+        .col-md-6 {
+          padding-top: 0px;
+        }
+      }
+      @media (min-width: 992px) {
+        .col-md-6 {
+          padding-top: 100px;
+        }
+      }
+    }
     @media (max-width:992px) {
       #banner {
         padding-top: 0px;
@@ -56,7 +68,7 @@ section#top.jumbotron {
 
     @media (min-width: 992px) {
       #banner {
-        padding-top: 270px;
+        padding-top: 100px;
       }
     }
   }
@@ -113,6 +125,7 @@ div#title {
   color: #f02a2c;
 }
 
+/*
 #detail {
   border: solid 2px #a0a0a0;
   border-collapse: collapse;
@@ -121,13 +134,16 @@ div#title {
   text-align: left;
   font-size: 95%;
 }
+*/
 
+/*
 #stth {
   margin: 0;
   padding: 0;
   border: 0;
   border-collapse: collapse;
 }
+*/
 
 div#footer {
   padding: 50px 20px 20px;
@@ -158,28 +174,7 @@ img.ss {
   box-shadow: 0 0 30px darkgray;
 }
 
-/*
-div#intro {
-  width: 250px;
-  height: 300px;
-  font-size: 80%;
-  line-height: 40%;
-  color: #494949;
-  position: relative;
+div.desc {
+  font-size: 60%;
 }
-
-div#top_ss {
-  top: 50%;
-  left: 50%;
-}
-
-div#top_intro {
-  padding-top: 100px;
-  left: 50%;
-}
-
-div#top_intro div {
-  padding-bottom: 15px;
-}
-*/
 
